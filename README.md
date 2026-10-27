@@ -63,25 +63,17 @@ medical-chatbot/
 
 ### Setup
 
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/manasdekivadia/medical-chatbot.git
-   cd medical-chatbot
-2. Create a virtual environment and activate it:
+1. Create a virtual environment and activate it:
    ```bash
    python -m venv venv
    venv\Scripts\activate
-3. Create a .env FILE:
+2. Create a .env FILE:
    ```bash
    PINECONE_API_KEY = "your-api-key'
-4. Install Dependencies:
-   ```bash
-   pip install -r requirements.txt
-5. Run the Flask App:
+3. Run the Flask App:
    ```bash
    python app.py
-6. Open your browser:
+4. Open your browser:
    ```bash
    http://127.0.0.1:5000
 
